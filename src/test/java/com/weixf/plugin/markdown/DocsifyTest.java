@@ -8,7 +8,13 @@ import com.deepoove.poi.plugin.markdown.MarkdownStyle;
 import org.apache.commons.io.FileUtils;
 import org.commonmark.Extension;
 import org.commonmark.ext.gfm.tables.TablesExtension;
-import org.commonmark.node.*;
+import org.commonmark.node.AbstractVisitor;
+import org.commonmark.node.BulletList;
+import org.commonmark.node.Link;
+import org.commonmark.node.ListItem;
+import org.commonmark.node.Node;
+import org.commonmark.node.Paragraph;
+import org.commonmark.node.Text;
 import org.commonmark.parser.Parser;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,6 +25,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -46,7 +53,7 @@ public class DocsifyTest {
         StringBuilder all = new StringBuilder();
 
         String toc = new String(Files.readAllBytes(Paths.get(docsifyFolder, "_sidebar.md")));
-        List<Extension> extensions = Arrays.asList(TablesExtension.create());
+        List<Extension> extensions = Collections.singletonList(TablesExtension.create());
         Parser parser = Parser.builder().extensions(extensions).build();
         Node node = parser.parse(toc);
         node.accept(new AbstractVisitor() {

@@ -2,7 +2,12 @@ package com.weixf.render;
 
 import com.deepoove.poi.XWPFTemplate;
 import com.weixf.source.XWPFTestSupport;
-import org.apache.poi.xwpf.usermodel.*;
+import org.apache.poi.xwpf.usermodel.IBody;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
+import org.apache.poi.xwpf.usermodel.XWPFHeader;
+import org.apache.poi.xwpf.usermodel.XWPFParagraph;
+import org.apache.poi.xwpf.usermodel.XWPFTable;
+import org.apache.poi.xwpf.usermodel.XWPFTableCell;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

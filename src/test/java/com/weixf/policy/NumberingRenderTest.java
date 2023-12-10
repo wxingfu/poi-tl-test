@@ -1,14 +1,26 @@
 package com.weixf.policy;
 
 import com.deepoove.poi.XWPFTemplate;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.NumberingFormat;
+import com.deepoove.poi.data.NumberingItemRenderData;
+import com.deepoove.poi.data.NumberingRenderData;
+import com.deepoove.poi.data.Numberings;
+import com.deepoove.poi.data.Paragraphs;
+import com.deepoove.poi.data.PictureRenderData;
+import com.deepoove.poi.data.Pictures;
+import com.deepoove.poi.data.TextRenderData;
+import com.deepoove.poi.data.Texts;
 import com.deepoove.poi.data.style.Style;
 import com.deepoove.poi.xwpf.NumFormat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 
 @DisplayName("Numbering Render test case")
 public class NumberingRenderTest {

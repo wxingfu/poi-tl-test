@@ -23,7 +23,7 @@ public class TocTest {
 
     private static final String HEADING1 = "1";
 
-    public static void main(String[] args) throws FileNotFoundException, IOException {
+    public static void main(String[] args) throws IOException {
         XWPFDocument doc = new XWPFDocument(new FileInputStream("toc.docx"));
 
         XWPFStyles styles = doc.getStyles();

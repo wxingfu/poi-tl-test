@@ -2,11 +2,19 @@ package com.weixf.xwpf;
 
 import com.deepoove.poi.util.NextIDUtils;
 import com.deepoove.poi.xwpf.NiceXWPFDocument;
-import org.apache.poi.xwpf.usermodel.*;
+import org.apache.poi.xwpf.usermodel.XWPFComment;
+import org.apache.poi.xwpf.usermodel.XWPFComments;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
+import org.apache.poi.xwpf.usermodel.XWPFParagraph;
+import org.apache.poi.xwpf.usermodel.XWPFRun;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -116,7 +124,7 @@ public class NiceXWPFDocumentTest {
     }
 
     @Test
-    public void testCreateComments() throws FileNotFoundException, IOException {
+    public void testCreateComments() throws IOException {
         NiceXWPFDocument document = new NiceXWPFDocument();
         XWPFComments docComments = document.createComments();
         XWPFComment addComment = docComments

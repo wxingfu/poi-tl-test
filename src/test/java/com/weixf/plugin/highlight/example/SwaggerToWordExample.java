@@ -11,18 +11,32 @@ import com.deepoove.poi.plugin.highlight.HighlightStyle;
 import com.deepoove.poi.plugin.table.LoopRowTableRenderPolicy;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.swagger.models.*;
+import io.swagger.models.ArrayModel;
+import io.swagger.models.HttpMethod;
+import io.swagger.models.Model;
+import io.swagger.models.ModelImpl;
+import io.swagger.models.Path;
+import io.swagger.models.RefModel;
+import io.swagger.models.Swagger;
 import io.swagger.models.parameters.AbstractSerializableParameter;
 import io.swagger.models.parameters.BodyParameter;
+import io.swagger.models.properties.AbstractNumericProperty;
+import io.swagger.models.properties.ArrayProperty;
+import io.swagger.models.properties.BooleanProperty;
 import io.swagger.models.properties.Property;
-import io.swagger.models.properties.*;
+import io.swagger.models.properties.RefProperty;
 import io.swagger.parser.SwaggerParser;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**

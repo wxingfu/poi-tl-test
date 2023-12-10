@@ -49,44 +49,44 @@ public class PaymentHackData {
         this.labors = labors;
     }
 
-    public void setSubtotal(String subtotal) {
-        this.subtotal = subtotal;
-    }
-
     public String getSubtotal() {
         return this.subtotal;
     }
 
-    public void setTax(String tax) {
-        this.tax = tax;
+    public void setSubtotal(String subtotal) {
+        this.subtotal = subtotal;
     }
 
     public String getTax() {
         return this.tax;
     }
 
-    public void setTransform(String transform) {
-        this.transform = transform;
+    public void setTax(String tax) {
+        this.tax = tax;
     }
 
     public String getTransform() {
         return this.transform;
     }
 
-    public void setOther(String other) {
-        this.other = other;
+    public void setTransform(String transform) {
+        this.transform = transform;
     }
 
     public String getOther() {
         return this.other;
     }
 
-    public void setUnpay(String unpay) {
-        this.unpay = unpay;
+    public void setOther(String other) {
+        this.other = other;
     }
 
     public String getUnpay() {
         return this.unpay;
+    }
+
+    public void setUnpay(String unpay) {
+        this.unpay = unpay;
     }
 
     public String getTotal() {

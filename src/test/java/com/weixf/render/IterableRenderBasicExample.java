@@ -1,24 +1,34 @@
 package com.weixf.render;
 
 import com.deepoove.poi.XWPFTemplate;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.NumberingRenderData;
+import com.deepoove.poi.data.Numberings;
+import com.deepoove.poi.data.Pictures;
+import com.deepoove.poi.data.RowRenderData;
+import com.deepoove.poi.data.Rows;
+import com.deepoove.poi.data.TableRenderData;
+import com.deepoove.poi.data.Tables;
+import com.deepoove.poi.data.Texts;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 
 @DisplayName("Foreach basic example")
 public class IterableRenderBasicExample {
-
-    TableRenderData table;
-    NumberingRenderData numbering;
 
     public static String base;
     public static String templatePath;
     public static String imgPath;
     public static String markdownPath;
     public static String outPath;
+    TableRenderData table;
+    NumberingRenderData numbering;
 
     @BeforeEach
     public void init() {

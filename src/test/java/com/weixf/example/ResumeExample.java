@@ -1,7 +1,12 @@
 package com.weixf.example;
 
 import com.deepoove.poi.XWPFTemplate;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.Includes;
+import com.deepoove.poi.data.NumberingFormat;
+import com.deepoove.poi.data.NumberingRenderData;
+import com.deepoove.poi.data.Numberings;
+import com.deepoove.poi.data.Pictures;
+import com.deepoove.poi.data.TextRenderData;
 import com.deepoove.poi.data.style.Style;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

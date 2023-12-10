@@ -2,7 +2,11 @@ package com.weixf.config;
 
 import com.deepoove.poi.XWPFTemplate;
 import com.deepoove.poi.config.Configure;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.HyperlinkTextRenderData;
+import com.deepoove.poi.data.Pictures;
+import com.deepoove.poi.data.TableRenderData;
+import com.deepoove.poi.data.Tables;
+import com.deepoove.poi.data.TextRenderData;
 import com.deepoove.poi.exception.ExpressionEvalException;
 import com.deepoove.poi.exception.RenderException;
 import com.weixf.source.XWPFTestSupport;
@@ -12,7 +16,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @DisplayName("ConfigEL test case")
 public class ConfigELTest {

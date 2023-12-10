@@ -368,9 +368,9 @@ class Header {
 }
 
 class Definition {
-    private BookmarkTextRenderData name;
     List<Property> properties;
     HighlightRenderData definitionCode;
+    private BookmarkTextRenderData name;
 
     public BookmarkTextRenderData getName() {
         return name;

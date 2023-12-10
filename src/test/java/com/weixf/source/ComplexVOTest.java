@@ -256,1060 +256,1060 @@ public class ComplexVOTest {
     @Name("m_key")
     private String mKey;
 
-    public void setDNumber(String dNumber) {
-        this.dNumber = dNumber;
-    }
-
     public String getDNumber() {
         return this.dNumber;
     }
 
-    public void setDObj(String dObj) {
-        this.dObj = dObj;
+    public void setDNumber(String dNumber) {
+        this.dNumber = dNumber;
     }
 
     public String getDObj() {
         return this.dObj;
     }
 
-    public void setMVin(String mVin) {
-        this.mVin = mVin;
+    public void setDObj(String dObj) {
+        this.dObj = dObj;
     }
 
     public String getMVin() {
         return this.mVin;
     }
 
-    public void setDDate(String dDate) {
-        this.dDate = dDate;
+    public void setMVin(String mVin) {
+        this.mVin = mVin;
     }
 
     public String getDDate() {
         return this.dDate;
     }
 
-    public void setDMan(String dMan) {
-        this.dMan = dMan;
+    public void setDDate(String dDate) {
+        this.dDate = dDate;
     }
 
     public String getDMan() {
         return this.dMan;
     }
 
-    public void setDAccident(String dAccident) {
-        this.dAccident = dAccident;
+    public void setDMan(String dMan) {
+        this.dMan = dMan;
     }
 
     public String getDAccident() {
         return this.dAccident;
     }
 
-    public void setDSafeWord(String dSafeWord) {
-        this.dSafeWord = dSafeWord;
+    public void setDAccident(String dAccident) {
+        this.dAccident = dAccident;
     }
 
     public String getDSafeWord() {
         return this.dSafeWord;
     }
 
-    public void setDOperWord(String dOperWord) {
-        this.dOperWord = dOperWord;
+    public void setDSafeWord(String dSafeWord) {
+        this.dSafeWord = dSafeWord;
     }
 
     public String getDOperWord() {
         return this.dOperWord;
     }
 
-    public void setDCfgWord(String dCfgWord) {
-        this.dCfgWord = dCfgWord;
+    public void setDOperWord(String dOperWord) {
+        this.dOperWord = dOperWord;
     }
 
     public String getDCfgWord() {
         return this.dCfgWord;
     }
 
-    public void setDDepart(String dDepart) {
-        this.dDepart = dDepart;
+    public void setDCfgWord(String dCfgWord) {
+        this.dCfgWord = dCfgWord;
     }
 
     public String getDDepart() {
         return this.dDepart;
     }
 
-    public void setA(String A) {
-        this.A = A;
+    public void setDDepart(String dDepart) {
+        this.dDepart = dDepart;
     }
 
     public String getA() {
         return this.A;
     }
 
-    public void setMetalNumber(String metalNumber) {
-        this.metalNumber = metalNumber;
+    public void setA(String A) {
+        this.A = A;
     }
 
     public String getMetalNumber() {
         return this.metalNumber;
     }
 
-    public void setMetalWord(String metalWord) {
-        this.metalWord = metalWord;
+    public void setMetalNumber(String metalNumber) {
+        this.metalNumber = metalNumber;
     }
 
     public String getMetalWord() {
         return this.metalWord;
     }
 
-    public void setMetalPicture(PictureRenderData metalPicture) {
-        this.metalPicture = metalPicture;
+    public void setMetalWord(String metalWord) {
+        this.metalWord = metalWord;
     }
 
     public PictureRenderData getMetalPicture() {
         return this.metalPicture;
     }
 
-    public void setSSafeWord(String sSafeWord) {
-        this.sSafeWord = sSafeWord;
+    public void setMetalPicture(PictureRenderData metalPicture) {
+        this.metalPicture = metalPicture;
     }
 
     public String getSSafeWord() {
         return this.sSafeWord;
     }
 
-    public void setSTreadWord(String sTreadWord) {
-        this.sTreadWord = sTreadWord;
+    public void setSSafeWord(String sSafeWord) {
+        this.sSafeWord = sSafeWord;
     }
 
     public String getSTreadWord() {
         return this.sTreadWord;
     }
 
-    public void setSBrakeWord(String sBrakeWord) {
-        this.sBrakeWord = sBrakeWord;
+    public void setSTreadWord(String sTreadWord) {
+        this.sTreadWord = sTreadWord;
     }
 
     public String getSBrakeWord() {
         return this.sBrakeWord;
     }
 
-    public void setTreadPicture(PictureRenderData treadPicture) {
-        this.treadPicture = treadPicture;
+    public void setSBrakeWord(String sBrakeWord) {
+        this.sBrakeWord = sBrakeWord;
     }
 
     public PictureRenderData getTreadPicture() {
         return this.treadPicture;
     }
 
-    public void setBrakePicture(PictureRenderData brakePicture) {
-        this.brakePicture = brakePicture;
+    public void setTreadPicture(PictureRenderData treadPicture) {
+        this.treadPicture = treadPicture;
     }
 
     public PictureRenderData getBrakePicture() {
         return this.brakePicture;
     }
 
-    public void setSFluidWord(String sFluidWord) {
-        this.sFluidWord = sFluidWord;
+    public void setBrakePicture(PictureRenderData brakePicture) {
+        this.brakePicture = brakePicture;
     }
 
     public String getSFluidWord() {
         return this.sFluidWord;
     }
 
-    public void setSAntiWord(String sAntiWord) {
-        this.sAntiWord = sAntiWord;
+    public void setSFluidWord(String sFluidWord) {
+        this.sFluidWord = sFluidWord;
     }
 
     public String getSAntiWord() {
         return this.sAntiWord;
     }
 
-    public void setFluidPicture(PictureRenderData fluidPicture) {
-        this.fluidPicture = fluidPicture;
+    public void setSAntiWord(String sAntiWord) {
+        this.sAntiWord = sAntiWord;
     }
 
     public PictureRenderData getFluidPicture() {
         return this.fluidPicture;
     }
 
-    public void setAntiPicture(PictureRenderData antiPicture) {
-        this.antiPicture = antiPicture;
+    public void setFluidPicture(PictureRenderData fluidPicture) {
+        this.fluidPicture = fluidPicture;
     }
 
     public PictureRenderData getAntiPicture() {
         return this.antiPicture;
     }
 
-    public void setZhidong(String zhidong) {
-        this.zhidong = zhidong;
+    public void setAntiPicture(PictureRenderData antiPicture) {
+        this.antiPicture = antiPicture;
     }
 
     public String getZhidong() {
         return this.zhidong;
     }
 
-    public void setDetect1(String detect1) {
-        this.detect1 = detect1;
+    public void setZhidong(String zhidong) {
+        this.zhidong = zhidong;
     }
 
     public String getDetect1() {
         return this.detect1;
     }
 
-    public void setDetect1pic(PictureRenderData detect1pic) {
-        this.detect1pic = detect1pic;
+    public void setDetect1(String detect1) {
+        this.detect1 = detect1;
     }
 
     public PictureRenderData getDetect1pic() {
         return this.detect1pic;
     }
 
-    public void setDetect1pro(String detect1pro) {
-        this.detect1pro = detect1pro;
+    public void setDetect1pic(PictureRenderData detect1pic) {
+        this.detect1pic = detect1pic;
     }
 
     public String getDetect1pro() {
         return this.detect1pro;
     }
 
-    public void setDetect3(String detect3) {
-        this.detect3 = detect3;
+    public void setDetect1pro(String detect1pro) {
+        this.detect1pro = detect1pro;
     }
 
     public String getDetect3() {
         return this.detect3;
     }
 
-    public void setDetect3pic(PictureRenderData detect3pic) {
-        this.detect3pic = detect3pic;
+    public void setDetect3(String detect3) {
+        this.detect3 = detect3;
     }
 
     public PictureRenderData getDetect3pic() {
         return this.detect3pic;
     }
 
-    public void setDetect3pro(String detect3pro) {
-        this.detect3pro = detect3pro;
+    public void setDetect3pic(PictureRenderData detect3pic) {
+        this.detect3pic = detect3pic;
     }
 
     public String getDetect3pro() {
         return this.detect3pro;
     }
 
-    public void setDetect4(String detect4) {
-        this.detect4 = detect4;
+    public void setDetect3pro(String detect3pro) {
+        this.detect3pro = detect3pro;
     }
 
     public String getDetect4() {
         return this.detect4;
     }
 
-    public void setDetect4pic(PictureRenderData detect4pic) {
-        this.detect4pic = detect4pic;
+    public void setDetect4(String detect4) {
+        this.detect4 = detect4;
     }
 
     public PictureRenderData getDetect4pic() {
         return this.detect4pic;
     }
 
-    public void setDetect4pro(String detect4pro) {
-        this.detect4pro = detect4pro;
+    public void setDetect4pic(PictureRenderData detect4pic) {
+        this.detect4pic = detect4pic;
     }
 
     public String getDetect4pro() {
         return this.detect4pro;
     }
 
-    public void setOOperWord(String oOperWord) {
-        this.oOperWord = oOperWord;
+    public void setDetect4pro(String detect4pro) {
+        this.detect4pro = detect4pro;
     }
 
     public String getOOperWord() {
         return this.oOperWord;
     }
 
-    public void setDetect16(String detect16) {
-        this.detect16 = detect16;
+    public void setOOperWord(String oOperWord) {
+        this.oOperWord = oOperWord;
     }
 
     public String getDetect16() {
         return this.detect16;
     }
 
-    public void setDetect16pic(PictureRenderData detect16pic) {
-        this.detect16pic = detect16pic;
+    public void setDetect16(String detect16) {
+        this.detect16 = detect16;
     }
 
     public PictureRenderData getDetect16pic() {
         return this.detect16pic;
     }
 
-    public void setDetect16pro(String detect16pro) {
-        this.detect16pro = detect16pro;
+    public void setDetect16pic(PictureRenderData detect16pic) {
+        this.detect16pic = detect16pic;
     }
 
     public String getDetect16pro() {
         return this.detect16pro;
     }
 
-    public void setDetect17(String detect17) {
-        this.detect17 = detect17;
+    public void setDetect16pro(String detect16pro) {
+        this.detect16pro = detect16pro;
     }
 
     public String getDetect17() {
         return this.detect17;
     }
 
-    public void setDetect17pic(PictureRenderData detect17pic) {
-        this.detect17pic = detect17pic;
+    public void setDetect17(String detect17) {
+        this.detect17 = detect17;
     }
 
     public PictureRenderData getDetect17pic() {
         return this.detect17pic;
     }
 
-    public void setDetect17pro(String detect17pro) {
-        this.detect17pro = detect17pro;
+    public void setDetect17pic(PictureRenderData detect17pic) {
+        this.detect17pic = detect17pic;
     }
 
     public String getDetect17pro() {
         return this.detect17pro;
     }
 
-    public void setDetect18(String detect18) {
-        this.detect18 = detect18;
+    public void setDetect17pro(String detect17pro) {
+        this.detect17pro = detect17pro;
     }
 
     public String getDetect18() {
         return this.detect18;
     }
 
-    public void setDetect18pic(PictureRenderData detect18pic) {
-        this.detect18pic = detect18pic;
+    public void setDetect18(String detect18) {
+        this.detect18 = detect18;
     }
 
     public PictureRenderData getDetect18pic() {
         return this.detect18pic;
     }
 
-    public void setDetect18pro(String detect18pro) {
-        this.detect18pro = detect18pro;
+    public void setDetect18pic(PictureRenderData detect18pic) {
+        this.detect18pic = detect18pic;
     }
 
     public String getDetect18pro() {
         return this.detect18pro;
     }
 
-    public void setDetect15pic(PictureRenderData detect15pic) {
-        this.detect15pic = detect15pic;
+    public void setDetect18pro(String detect18pro) {
+        this.detect18pro = detect18pro;
     }
 
     public PictureRenderData getDetect15pic() {
         return this.detect15pic;
     }
 
-    public void setDetect15(String detect15) {
-        this.detect15 = detect15;
+    public void setDetect15pic(PictureRenderData detect15pic) {
+        this.detect15pic = detect15pic;
     }
 
     public String getDetect15() {
         return this.detect15;
     }
 
-    public void setDetect15pro(String detect15pro) {
-        this.detect15pro = detect15pro;
+    public void setDetect15(String detect15) {
+        this.detect15 = detect15;
     }
 
     public String getDetect15pro() {
         return this.detect15pro;
     }
 
-    public void setQidong(String qidong) {
-        this.qidong = qidong;
+    public void setDetect15pro(String detect15pro) {
+        this.detect15pro = detect15pro;
     }
 
     public String getQidong() {
         return this.qidong;
     }
 
-    public void setJiasu(String jiasu) {
-        this.jiasu = jiasu;
+    public void setQidong(String qidong) {
+        this.qidong = qidong;
     }
 
     public String getJiasu() {
         return this.jiasu;
     }
 
-    public void setDetect19(String detect19) {
-        this.detect19 = detect19;
+    public void setJiasu(String jiasu) {
+        this.jiasu = jiasu;
     }
 
     public String getDetect19() {
         return this.detect19;
     }
 
-    public void setDetect19pic(PictureRenderData detect19pic) {
-        this.detect19pic = detect19pic;
+    public void setDetect19(String detect19) {
+        this.detect19 = detect19;
     }
 
     public PictureRenderData getDetect19pic() {
         return this.detect19pic;
     }
 
-    public void setDetect19pro(String detect19pro) {
-        this.detect19pro = detect19pro;
+    public void setDetect19pic(PictureRenderData detect19pic) {
+        this.detect19pic = detect19pic;
     }
 
     public String getDetect19pro() {
         return this.detect19pro;
     }
 
-    public void setDetect20(String detect20) {
-        this.detect20 = detect20;
+    public void setDetect19pro(String detect19pro) {
+        this.detect19pro = detect19pro;
     }
 
     public String getDetect20() {
         return this.detect20;
     }
 
-    public void setDetect20pic(PictureRenderData detect20pic) {
-        this.detect20pic = detect20pic;
+    public void setDetect20(String detect20) {
+        this.detect20 = detect20;
     }
 
     public PictureRenderData getDetect20pic() {
         return this.detect20pic;
     }
 
-    public void setDetect20pro(String detect20pro) {
-        this.detect20pro = detect20pro;
+    public void setDetect20pic(PictureRenderData detect20pic) {
+        this.detect20pic = detect20pic;
     }
 
     public String getDetect20pro() {
         return this.detect20pro;
     }
 
-    public void setDetect21(String detect21) {
-        this.detect21 = detect21;
+    public void setDetect20pro(String detect20pro) {
+        this.detect20pro = detect20pro;
     }
 
     public String getDetect21() {
         return this.detect21;
     }
 
-    public void setDetect21pic(PictureRenderData detect21pic) {
-        this.detect21pic = detect21pic;
+    public void setDetect21(String detect21) {
+        this.detect21 = detect21;
     }
 
     public PictureRenderData getDetect21pic() {
         return this.detect21pic;
     }
 
-    public void setDetect21pro(String detect21pro) {
-        this.detect21pro = detect21pro;
+    public void setDetect21pic(PictureRenderData detect21pic) {
+        this.detect21pic = detect21pic;
     }
 
     public String getDetect21pro() {
         return this.detect21pro;
     }
 
-    public void setYunsu(String yunsu) {
-        this.yunsu = yunsu;
+    public void setDetect21pro(String detect21pro) {
+        this.detect21pro = detect21pro;
     }
 
     public String getYunsu() {
         return this.yunsu;
     }
 
-    public void setDetect22(String detect22) {
-        this.detect22 = detect22;
+    public void setYunsu(String yunsu) {
+        this.yunsu = yunsu;
     }
 
     public String getDetect22() {
         return this.detect22;
     }
 
-    public void setDetect22pic(PictureRenderData detect22pic) {
-        this.detect22pic = detect22pic;
+    public void setDetect22(String detect22) {
+        this.detect22 = detect22;
     }
 
     public PictureRenderData getDetect22pic() {
         return this.detect22pic;
     }
 
-    public void setDetect22pro(String detect22pro) {
-        this.detect22pro = detect22pro;
+    public void setDetect22pic(PictureRenderData detect22pic) {
+        this.detect22pic = detect22pic;
     }
 
     public String getDetect22pro() {
         return this.detect22pro;
     }
 
-    public void setDetect5(String detect5) {
-        this.detect5 = detect5;
+    public void setDetect22pro(String detect22pro) {
+        this.detect22pro = detect22pro;
     }
 
     public String getDetect5() {
         return this.detect5;
     }
 
-    public void setDetect5pic(PictureRenderData detect5pic) {
-        this.detect5pic = detect5pic;
+    public void setDetect5(String detect5) {
+        this.detect5 = detect5;
     }
 
     public PictureRenderData getDetect5pic() {
         return this.detect5pic;
     }
 
-    public void setDetect5pro(String detect5pro) {
-        this.detect5pro = detect5pro;
+    public void setDetect5pic(PictureRenderData detect5pic) {
+        this.detect5pic = detect5pic;
     }
 
     public String getDetect5pro() {
         return this.detect5pro;
     }
 
-    public void setDetect6(String detect6) {
-        this.detect6 = detect6;
+    public void setDetect5pro(String detect5pro) {
+        this.detect5pro = detect5pro;
     }
 
     public String getDetect6() {
         return this.detect6;
     }
 
-    public void setDetect6pic(PictureRenderData detect6pic) {
-        this.detect6pic = detect6pic;
+    public void setDetect6(String detect6) {
+        this.detect6 = detect6;
     }
 
     public PictureRenderData getDetect6pic() {
         return this.detect6pic;
     }
 
-    public void setDetect6pro(String detect6pro) {
-        this.detect6pro = detect6pro;
+    public void setDetect6pic(PictureRenderData detect6pic) {
+        this.detect6pic = detect6pic;
     }
 
     public String getDetect6pro() {
         return this.detect6pro;
     }
 
-    public void setDetect7pic(PictureRenderData detect7pic) {
-        this.detect7pic = detect7pic;
+    public void setDetect6pro(String detect6pro) {
+        this.detect6pro = detect6pro;
     }
 
     public PictureRenderData getDetect7pic() {
         return this.detect7pic;
     }
 
-    public void setDetect7(String detect7) {
-        this.detect7 = detect7;
+    public void setDetect7pic(PictureRenderData detect7pic) {
+        this.detect7pic = detect7pic;
     }
 
     public String getDetect7() {
         return this.detect7;
     }
 
-    public void setDetect7pro(String detect7pro) {
-        this.detect7pro = detect7pro;
+    public void setDetect7(String detect7) {
+        this.detect7 = detect7;
     }
 
     public String getDetect7pro() {
         return this.detect7pro;
     }
 
-    public void setDetect8pic(PictureRenderData detect8pic) {
-        this.detect8pic = detect8pic;
+    public void setDetect7pro(String detect7pro) {
+        this.detect7pro = detect7pro;
     }
 
     public PictureRenderData getDetect8pic() {
         return this.detect8pic;
     }
 
-    public void setDetect8(String detect8) {
-        this.detect8 = detect8;
+    public void setDetect8pic(PictureRenderData detect8pic) {
+        this.detect8pic = detect8pic;
     }
 
     public String getDetect8() {
         return this.detect8;
     }
 
-    public void setDetect8pro(String detect8pro) {
-        this.detect8pro = detect8pro;
+    public void setDetect8(String detect8) {
+        this.detect8 = detect8;
     }
 
     public String getDetect8pro() {
         return this.detect8pro;
     }
 
-    public void setDetect9(String detect9) {
-        this.detect9 = detect9;
+    public void setDetect8pro(String detect8pro) {
+        this.detect8pro = detect8pro;
     }
 
     public String getDetect9() {
         return this.detect9;
     }
 
-    public void setDetect9pic(PictureRenderData detect9pic) {
-        this.detect9pic = detect9pic;
+    public void setDetect9(String detect9) {
+        this.detect9 = detect9;
     }
 
     public PictureRenderData getDetect9pic() {
         return this.detect9pic;
     }
 
-    public void setDetect9pro(String detect9pro) {
-        this.detect9pro = detect9pro;
+    public void setDetect9pic(PictureRenderData detect9pic) {
+        this.detect9pic = detect9pic;
     }
 
     public String getDetect9pro() {
         return this.detect9pro;
     }
 
-    public void setDetect13(String detect13) {
-        this.detect13 = detect13;
+    public void setDetect9pro(String detect9pro) {
+        this.detect9pro = detect9pro;
     }
 
     public String getDetect13() {
         return this.detect13;
     }
 
-    public void setDetect13pic(PictureRenderData detect13pic) {
-        this.detect13pic = detect13pic;
+    public void setDetect13(String detect13) {
+        this.detect13 = detect13;
     }
 
     public PictureRenderData getDetect13pic() {
         return this.detect13pic;
     }
 
-    public void setDetect13pro(String detect13pro) {
-        this.detect13pro = detect13pro;
+    public void setDetect13pic(PictureRenderData detect13pic) {
+        this.detect13pic = detect13pic;
     }
 
     public String getDetect13pro() {
         return this.detect13pro;
     }
 
-    public void setDetect14(String detect14) {
-        this.detect14 = detect14;
+    public void setDetect13pro(String detect13pro) {
+        this.detect13pro = detect13pro;
     }
 
     public String getDetect14() {
         return this.detect14;
     }
 
-    public void setDetect14pic(PictureRenderData detect14pic) {
-        this.detect14pic = detect14pic;
+    public void setDetect14(String detect14) {
+        this.detect14 = detect14;
     }
 
     public PictureRenderData getDetect14pic() {
         return this.detect14pic;
     }
 
-    public void setDetect14pro(String detect14pro) {
-        this.detect14pro = detect14pro;
+    public void setDetect14pic(PictureRenderData detect14pic) {
+        this.detect14pic = detect14pic;
     }
 
     public String getDetect14pro() {
         return this.detect14pro;
     }
 
-    public void setDetect10(String detect10) {
-        this.detect10 = detect10;
+    public void setDetect14pro(String detect14pro) {
+        this.detect14pro = detect14pro;
     }
 
     public String getDetect10() {
         return this.detect10;
     }
 
-    public void setDetect10pic(PictureRenderData detect10pic) {
-        this.detect10pic = detect10pic;
+    public void setDetect10(String detect10) {
+        this.detect10 = detect10;
     }
 
     public PictureRenderData getDetect10pic() {
         return this.detect10pic;
     }
 
-    public void setDetect10pro(String detect10pro) {
-        this.detect10pro = detect10pro;
+    public void setDetect10pic(PictureRenderData detect10pic) {
+        this.detect10pic = detect10pic;
     }
 
     public String getDetect10pro() {
         return this.detect10pro;
     }
 
-    public void setDetect11pic(PictureRenderData detect11pic) {
-        this.detect11pic = detect11pic;
+    public void setDetect10pro(String detect10pro) {
+        this.detect10pro = detect10pro;
     }
 
     public PictureRenderData getDetect11pic() {
         return this.detect11pic;
     }
 
-    public void setDetect11(String detect11) {
-        this.detect11 = detect11;
+    public void setDetect11pic(PictureRenderData detect11pic) {
+        this.detect11pic = detect11pic;
     }
 
     public String getDetect11() {
         return this.detect11;
     }
 
-    public void setDetect11pro(String detect11pro) {
-        this.detect11pro = detect11pro;
+    public void setDetect11(String detect11) {
+        this.detect11 = detect11;
     }
 
     public String getDetect11pro() {
         return this.detect11pro;
     }
 
-    public void setDetect12pic(PictureRenderData detect12pic) {
-        this.detect12pic = detect12pic;
+    public void setDetect11pro(String detect11pro) {
+        this.detect11pro = detect11pro;
     }
 
     public PictureRenderData getDetect12pic() {
         return this.detect12pic;
     }
 
-    public void setDetect12(String detect12) {
-        this.detect12 = detect12;
+    public void setDetect12pic(PictureRenderData detect12pic) {
+        this.detect12pic = detect12pic;
     }
 
     public String getDetect12() {
         return this.detect12;
     }
 
-    public void setDetect12pro(String detect12pro) {
-        this.detect12pro = detect12pro;
+    public void setDetect12(String detect12) {
+        this.detect12 = detect12;
     }
 
     public String getDetect12pro() {
         return this.detect12pro;
     }
 
-    public void setZhxiang(String zhxiang) {
-        this.zhxiang = zhxiang;
+    public void setDetect12pro(String detect12pro) {
+        this.detect12pro = detect12pro;
     }
 
     public String getZhxiang() {
         return this.zhxiang;
     }
 
-    public void setCCfgWord(String cCfgWord) {
-        this.cCfgWord = cCfgWord;
+    public void setZhxiang(String zhxiang) {
+        this.zhxiang = zhxiang;
     }
 
     public String getCCfgWord() {
         return this.cCfgWord;
     }
 
-    public void setFbszV(PictureRenderData fbszV) {
-        this.fbszV = fbszV;
+    public void setCCfgWord(String cCfgWord) {
+        this.cCfgWord = cCfgWord;
     }
 
     public PictureRenderData getFbszV() {
         return this.fbszV;
     }
 
-    public void setFbszP(PictureRenderData fbszP) {
-        this.fbszP = fbszP;
+    public void setFbszV(PictureRenderData fbszV) {
+        this.fbszV = fbszV;
     }
 
     public PictureRenderData getFbszP() {
         return this.fbszP;
     }
 
-    public void setQjtcV(PictureRenderData qjtcV) {
-        this.qjtcV = qjtcV;
+    public void setFbszP(PictureRenderData fbszP) {
+        this.fbszP = fbszP;
     }
 
     public PictureRenderData getQjtcV() {
         return this.qjtcV;
     }
 
-    public void setQjtcP(PictureRenderData qjtcP) {
-        this.qjtcP = qjtcP;
+    public void setQjtcV(PictureRenderData qjtcV) {
+        this.qjtcV = qjtcV;
     }
 
     public PictureRenderData getQjtcP() {
         return this.qjtcP;
     }
 
-    public void setCzldV(PictureRenderData czldV) {
-        this.czldV = czldV;
+    public void setQjtcP(PictureRenderData qjtcP) {
+        this.qjtcP = qjtcP;
     }
 
     public PictureRenderData getCzldV() {
         return this.czldV;
     }
 
-    public void setCzldP(PictureRenderData czldP) {
-        this.czldP = czldP;
+    public void setCzldV(PictureRenderData czldV) {
+        this.czldV = czldV;
     }
 
     public PictureRenderData getCzldP() {
         return this.czldP;
     }
 
-    public void setDdtcV(PictureRenderData ddtcV) {
-        this.ddtcV = ddtcV;
+    public void setCzldP(PictureRenderData czldP) {
+        this.czldP = czldP;
     }
 
     public PictureRenderData getDdtcV() {
         return this.ddtcV;
     }
 
-    public void setDdtcP(PictureRenderData ddtcP) {
-        this.ddtcP = ddtcP;
+    public void setDdtcV(PictureRenderData ddtcV) {
+        this.ddtcV = ddtcV;
     }
 
     public PictureRenderData getDdtcP() {
         return this.ddtcP;
     }
 
-    public void setZpzyV(PictureRenderData zpzyV) {
-        this.zpzyV = zpzyV;
+    public void setDdtcP(PictureRenderData ddtcP) {
+        this.ddtcP = ddtcP;
     }
 
     public PictureRenderData getZpzyV() {
         return this.zpzyV;
     }
 
-    public void setZpzyP(PictureRenderData zpzyP) {
-        this.zpzyP = zpzyP;
+    public void setZpzyV(PictureRenderData zpzyV) {
+        this.zpzyV = zpzyV;
     }
 
     public PictureRenderData getZpzyP() {
         return this.zpzyP;
     }
 
-    public void setQhddV(PictureRenderData qhddV) {
-        this.qhddV = qhddV;
+    public void setZpzyP(PictureRenderData zpzyP) {
+        this.zpzyP = zpzyP;
     }
 
     public PictureRenderData getQhddV() {
         return this.qhddV;
     }
 
-    public void setQhddP(PictureRenderData qhddP) {
-        this.qhddP = qhddP;
+    public void setQhddV(PictureRenderData qhddV) {
+        this.qhddV = qhddV;
     }
 
     public PictureRenderData getQhddP() {
         return this.qhddP;
     }
 
-    public void setDdxtV(PictureRenderData ddxtV) {
-        this.ddxtV = ddxtV;
+    public void setQhddP(PictureRenderData qhddP) {
+        this.qhddP = qhddP;
     }
 
     public PictureRenderData getDdxtV() {
         return this.ddxtV;
     }
 
-    public void setDdxtP(PictureRenderData ddxtP) {
-        this.ddxtP = ddxtP;
+    public void setDdxtV(PictureRenderData ddxtV) {
+        this.ddxtV = ddxtV;
     }
 
     public PictureRenderData getDdxtP() {
         return this.ddxtP;
     }
 
-    public void setDdzdV(PictureRenderData ddzdV) {
-        this.ddzdV = ddzdV;
+    public void setDdxtP(PictureRenderData ddxtP) {
+        this.ddxtP = ddxtP;
     }
 
     public PictureRenderData getDdzdV() {
         return this.ddzdV;
     }
 
-    public void setDdzdP(PictureRenderData ddzdP) {
-        this.ddzdP = ddzdP;
+    public void setDdzdV(PictureRenderData ddzdV) {
+        this.ddzdV = ddzdV;
     }
 
     public PictureRenderData getDdzdP() {
         return this.ddzdP;
     }
 
-    public void setSqddV(PictureRenderData sqddV) {
-        this.sqddV = sqddV;
+    public void setDdzdP(PictureRenderData ddzdP) {
+        this.ddzdP = ddzdP;
     }
 
     public PictureRenderData getSqddV() {
         return this.sqddV;
     }
 
-    public void setSqddP(PictureRenderData sqddP) {
-        this.sqddP = sqddP;
+    public void setSqddV(PictureRenderData sqddV) {
+        this.sqddV = sqddV;
     }
 
     public PictureRenderData getSqddP() {
         return this.sqddP;
     }
 
-    public void setAqqlV(PictureRenderData aqqlV) {
-        this.aqqlV = aqqlV;
+    public void setSqddP(PictureRenderData sqddP) {
+        this.sqddP = sqddP;
     }
 
     public PictureRenderData getAqqlV() {
         return this.aqqlV;
     }
 
-    public void setAqqlP(PictureRenderData aqqlP) {
-        this.aqqlP = aqqlP;
+    public void setAqqlV(PictureRenderData aqqlV) {
+        this.aqqlV = aqqlV;
     }
 
     public PictureRenderData getAqqlP() {
         return this.aqqlP;
     }
 
-    public void setDvddV(PictureRenderData dvddV) {
-        this.dvddV = dvddV;
+    public void setAqqlP(PictureRenderData aqqlP) {
+        this.aqqlP = aqqlP;
     }
 
     public PictureRenderData getDvddV() {
         return this.dvddV;
     }
 
-    public void setDvddP(PictureRenderData dvddP) {
-        this.dvddP = dvddP;
+    public void setDvddV(PictureRenderData dvddV) {
+        this.dvddV = dvddV;
     }
 
     public PictureRenderData getDvddP() {
         return this.dvddP;
     }
 
-    public void setZdhwV(PictureRenderData zdhwV) {
-        this.zdhwV = zdhwV;
+    public void setDvddP(PictureRenderData dvddP) {
+        this.dvddP = dvddP;
     }
 
     public PictureRenderData getZdhwV() {
         return this.zdhwV;
     }
 
-    public void setZdhwP(PictureRenderData zdhwP) {
-        this.zdhwP = zdhwP;
+    public void setZdhwV(PictureRenderData zdhwV) {
+        this.zdhwV = zdhwV;
     }
 
     public PictureRenderData getZdhwP() {
         return this.zdhwP;
     }
 
-    public void setDcyxV(PictureRenderData dcyxV) {
-        this.dcyxV = dcyxV;
+    public void setZdhwP(PictureRenderData zdhwP) {
+        this.zdhwP = zdhwP;
     }
 
     public PictureRenderData getDcyxV() {
         return this.dcyxV;
     }
 
-    public void setDcyxP(PictureRenderData dcyxP) {
-        this.dcyxP = dcyxP;
+    public void setDcyxV(PictureRenderData dcyxV) {
+        this.dcyxV = dcyxV;
     }
 
     public PictureRenderData getDcyxP() {
         return this.dcyxP;
     }
 
-    public void setYjqdV(PictureRenderData yjqdV) {
-        this.yjqdV = yjqdV;
+    public void setDcyxP(PictureRenderData dcyxP) {
+        this.dcyxP = dcyxP;
     }
 
     public PictureRenderData getYjqdV() {
         return this.yjqdV;
     }
 
-    public void setYjqdP(PictureRenderData yjqdP) {
-        this.yjqdP = yjqdP;
+    public void setYjqdV(PictureRenderData yjqdV) {
+        this.yjqdV = yjqdV;
     }
 
     public PictureRenderData getYjqdP() {
         return this.yjqdP;
     }
 
-    public void setDdtjV(PictureRenderData ddtjV) {
-        this.ddtjV = ddtjV;
+    public void setYjqdP(PictureRenderData yjqdP) {
+        this.yjqdP = yjqdP;
     }
 
     public PictureRenderData getDdtjV() {
         return this.ddtjV;
     }
 
-    public void setDdtjP(PictureRenderData ddtjP) {
-        this.ddtjP = ddtjP;
+    public void setDdtjV(PictureRenderData ddtjV) {
+        this.ddtjV = ddtjV;
     }
 
     public PictureRenderData getDdtjP() {
         return this.ddtjP;
     }
 
-    public void setDsxhV(PictureRenderData dsxhV) {
-        this.dsxhV = dsxhV;
+    public void setDdtjP(PictureRenderData ddtjP) {
+        this.ddtjP = ddtjP;
     }
 
     public PictureRenderData getDsxhV() {
         return this.dsxhV;
     }
 
-    public void setDsxhP(PictureRenderData dsxhP) {
-        this.dsxhP = dsxhP;
+    public void setDsxhV(PictureRenderData dsxhV) {
+        this.dsxhV = dsxhV;
     }
 
     public PictureRenderData getDsxhP() {
         return this.dsxhP;
     }
 
-    public void setMPlate(String mPlate) {
-        this.mPlate = mPlate;
+    public void setDsxhP(PictureRenderData dsxhP) {
+        this.dsxhP = dsxhP;
     }
 
     public String getMPlate() {
         return this.mPlate;
     }
 
-    public void setMEngin(String mEngin) {
-        this.mEngin = mEngin;
+    public void setMPlate(String mPlate) {
+        this.mPlate = mPlate;
     }
 
     public String getMEngin() {
         return this.mEngin;
     }
 
-    public void setMFirstp(String mFirstp) {
-        this.mFirstp = mFirstp;
+    public void setMEngin(String mEngin) {
+        this.mEngin = mEngin;
     }
 
     public String getMFirstp() {
         return this.mFirstp;
     }
 
-    public void setMInsure(String mInsure) {
-        this.mInsure = mInsure;
+    public void setMFirstp(String mFirstp) {
+        this.mFirstp = mFirstp;
     }
 
     public String getMInsure() {
         return this.mInsure;
     }
 
-    public void setMAnnual(String mAnnual) {
-        this.mAnnual = mAnnual;
+    public void setMInsure(String mInsure) {
+        this.mInsure = mInsure;
     }
 
     public String getMAnnual() {
         return this.mAnnual;
     }
 
-    public void setMMile(String mMile) {
-        this.mMile = mMile;
+    public void setMAnnual(String mAnnual) {
+        this.mAnnual = mAnnual;
     }
 
     public String getMMile() {
         return this.mMile;
     }
 
-    public void setMKey(String mKey) {
-        this.mKey = mKey;
+    public void setMMile(String mMile) {
+        this.mMile = mMile;
     }
 
     public String getMKey() {
         return this.mKey;
+    }
+
+    public void setMKey(String mKey) {
+        this.mKey = mKey;
     }
 
 }

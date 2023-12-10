@@ -3,7 +3,12 @@ package com.weixf.xwpf;
 import com.deepoove.poi.xwpf.BodyContainer;
 import com.deepoove.poi.xwpf.CellBodyContainer;
 import com.deepoove.poi.xwpf.NiceXWPFDocument;
-import org.apache.poi.xwpf.usermodel.*;
+import org.apache.poi.xwpf.usermodel.IBodyElement;
+import org.apache.poi.xwpf.usermodel.XWPFParagraph;
+import org.apache.poi.xwpf.usermodel.XWPFRun;
+import org.apache.poi.xwpf.usermodel.XWPFTable;
+import org.apache.poi.xwpf.usermodel.XWPFTableCell;
+import org.apache.poi.xwpf.usermodel.XWPFTableRow;
 import org.apache.xmlbeans.XmlCursor;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -82,8 +87,6 @@ public class CellBodyContainnerTest {
         assertEquals(container.getPosOfParagraph(paragraph), 3);
 
     }
-
-    ;
 
     @Test
     void testInsertNewParagraph() {

@@ -19,20 +19,20 @@ public class MyDataModel extends DataSourceBaseTest {
     private TextRenderData introduce;
     private String header;
 
-    public void setWhat(String what) {
-        this.what = what;
-    }
-
     public String getWhat() {
         return this.what;
     }
 
-    public void setFeature(NumberingRenderData feature) {
-        this.feature = feature;
+    public void setWhat(String what) {
+        this.what = what;
     }
 
     public NumberingRenderData getFeature() {
         return this.feature;
+    }
+
+    public void setFeature(NumberingRenderData feature) {
+        this.feature = feature;
     }
 
     public TableRenderData getSolutionCompare() {
@@ -43,20 +43,20 @@ public class MyDataModel extends DataSourceBaseTest {
         this.solutionCompare = solutionCompare;
     }
 
-    public void setPortrait(PictureRenderData portrait) {
-        this.portrait = portrait;
-    }
-
     public PictureRenderData getPortrait() {
         return this.portrait;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setPortrait(PictureRenderData portrait) {
+        this.portrait = portrait;
     }
 
     public String getAuthor() {
         return this.author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public TextRenderData getIntroduce() {
@@ -67,12 +67,12 @@ public class MyDataModel extends DataSourceBaseTest {
         this.introduce = introduce;
     }
 
-    public void setHeader(String header) {
-        this.header = header;
-    }
-
     public String getHeader() {
         return this.header;
+    }
+
+    public void setHeader(String header) {
+        this.header = header;
     }
 
     public String getWord() {

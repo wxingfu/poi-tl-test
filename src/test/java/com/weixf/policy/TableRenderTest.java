@@ -2,8 +2,17 @@ package com.weixf.policy;
 
 import com.deepoove.poi.XWPFTemplate;
 import com.deepoove.poi.config.Configure;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.CellRenderData;
+import com.deepoove.poi.data.Cells;
+import com.deepoove.poi.data.MergeCellRule;
 import com.deepoove.poi.data.MergeCellRule.Grid;
+import com.deepoove.poi.data.Paragraphs;
+import com.deepoove.poi.data.Pictures;
+import com.deepoove.poi.data.RowRenderData;
+import com.deepoove.poi.data.Rows;
+import com.deepoove.poi.data.TableRenderData;
+import com.deepoove.poi.data.Tables;
+import com.deepoove.poi.data.Texts;
 import com.deepoove.poi.policy.TableRenderPolicy;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

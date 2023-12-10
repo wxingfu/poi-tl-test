@@ -2,8 +2,14 @@ package com.weixf.plugin;
 
 import com.deepoove.poi.XWPFTemplate;
 import com.deepoove.poi.config.Configure;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.Documents;
 import com.deepoove.poi.data.Documents.DocumentBuilder;
+import com.deepoove.poi.data.ParagraphRenderData;
+import com.deepoove.poi.data.Paragraphs;
+import com.deepoove.poi.data.Pictures;
+import com.deepoove.poi.data.TableRenderData;
+import com.deepoove.poi.data.Tables;
+import com.deepoove.poi.data.Texts;
 import com.deepoove.poi.data.style.Style;
 import com.deepoove.poi.plugin.comment.CommentRenderData;
 import com.deepoove.poi.plugin.comment.CommentRenderPolicy;

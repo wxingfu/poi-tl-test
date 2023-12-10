@@ -1,7 +1,14 @@
 package com.weixf.render;
 
 import com.deepoove.poi.XWPFTemplate;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.FilePictureRenderData;
+import com.deepoove.poi.data.HyperlinkTextRenderData;
+import com.deepoove.poi.data.NumberingFormat;
+import com.deepoove.poi.data.NumberingRenderData;
+import com.deepoove.poi.data.RowRenderData;
+import com.deepoove.poi.data.Rows;
+import com.deepoove.poi.data.Tables;
+import com.deepoove.poi.data.TextRenderData;
 import com.deepoove.poi.data.style.Style;
 import com.weixf.source.XWPFTestSupport;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
@@ -9,7 +16,12 @@ import org.apache.poi.xwpf.usermodel.XWPFTable;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

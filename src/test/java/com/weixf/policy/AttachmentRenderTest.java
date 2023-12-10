@@ -2,7 +2,11 @@ package com.weixf.policy;
 
 import com.deepoove.poi.XWPFTemplate;
 import com.deepoove.poi.config.Configure;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.AttachmentType;
+import com.deepoove.poi.data.Attachments;
+import com.deepoove.poi.data.Charts;
+import com.deepoove.poi.data.TextRenderData;
+import com.deepoove.poi.data.Texts;
 import com.deepoove.poi.data.style.Style;
 import com.deepoove.poi.policy.AttachmentRenderPolicy;
 import com.deepoove.poi.xwpf.XWPFHighlightColor;

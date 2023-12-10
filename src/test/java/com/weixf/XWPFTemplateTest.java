@@ -1,7 +1,14 @@
 package com.weixf;
 
 import com.deepoove.poi.XWPFTemplate;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.Charts;
+import com.deepoove.poi.data.Numberings;
+import com.deepoove.poi.data.Pictures;
+import com.deepoove.poi.data.RowRenderData;
+import com.deepoove.poi.data.Rows;
+import com.deepoove.poi.data.TableRenderData;
+import com.deepoove.poi.data.Tables;
+import com.deepoove.poi.data.Texts;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;

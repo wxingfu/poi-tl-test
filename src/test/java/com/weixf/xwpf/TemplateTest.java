@@ -1,7 +1,12 @@
 package com.weixf.xwpf;
 
 import com.deepoove.poi.XWPFTemplate;
-import com.deepoove.poi.data.*;
+import com.deepoove.poi.data.DocumentRenderData;
+import com.deepoove.poi.data.Documents;
+import com.deepoove.poi.data.Numberings;
+import com.deepoove.poi.data.Paragraphs;
+import com.deepoove.poi.data.TableRenderData;
+import com.deepoove.poi.data.Tables;
 import com.deepoove.poi.data.style.Style;
 import com.weixf.source.XWPFTestSupport;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;

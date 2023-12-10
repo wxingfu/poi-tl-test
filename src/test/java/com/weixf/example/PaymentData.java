@@ -18,92 +18,92 @@ public class PaymentData {
     private String unpay;
     private String total;
 
-    public void setOrder(TableRenderData order) {
-        this.order = order;
-    }
-
     public TableRenderData getOrder() {
         return this.order;
     }
 
-    public void setNO(String NO) {
-        this.NO = NO;
+    public void setOrder(TableRenderData order) {
+        this.order = order;
     }
 
     public String getNO() {
         return this.NO;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setNO(String NO) {
+        this.NO = NO;
     }
 
     public String getID() {
         return this.ID;
     }
 
-    public void setTaitou(String taitou) {
-        this.taitou = taitou;
+    public void setID(String ID) {
+        this.ID = ID;
     }
 
     public String getTaitou() {
         return this.taitou;
     }
 
-    public void setConsignee(String consignee) {
-        this.consignee = consignee;
+    public void setTaitou(String taitou) {
+        this.taitou = taitou;
     }
 
     public String getConsignee() {
         return this.consignee;
     }
 
-    public void setDetailTable(DetailData detailTable) {
-        this.detailTable = detailTable;
+    public void setConsignee(String consignee) {
+        this.consignee = consignee;
     }
 
     public DetailData getDetailTable() {
         return this.detailTable;
     }
 
-    public void setSubtotal(String subtotal) {
-        this.subtotal = subtotal;
+    public void setDetailTable(DetailData detailTable) {
+        this.detailTable = detailTable;
     }
 
     public String getSubtotal() {
         return this.subtotal;
     }
 
-    public void setTax(String tax) {
-        this.tax = tax;
+    public void setSubtotal(String subtotal) {
+        this.subtotal = subtotal;
     }
 
     public String getTax() {
         return this.tax;
     }
 
-    public void setTransform(String transform) {
-        this.transform = transform;
+    public void setTax(String tax) {
+        this.tax = tax;
     }
 
     public String getTransform() {
         return this.transform;
     }
 
-    public void setOther(String other) {
-        this.other = other;
+    public void setTransform(String transform) {
+        this.transform = transform;
     }
 
     public String getOther() {
         return this.other;
     }
 
-    public void setUnpay(String unpay) {
-        this.unpay = unpay;
+    public void setOther(String other) {
+        this.other = other;
     }
 
     public String getUnpay() {
         return this.unpay;
+    }
+
+    public void setUnpay(String unpay) {
+        this.unpay = unpay;
     }
 
     public String getTotal() {

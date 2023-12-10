@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class XWPFParagraphWrapperTest {
 
     @Test
-    public void testWrapper() throws FileNotFoundException, IOException {
+    public void testWrapper() throws IOException {
 
         XWPFDocument doc = new XWPFDocument();
         XWPFParagraph paragraph = doc.createParagraph();

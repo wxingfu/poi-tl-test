@@ -30,7 +30,7 @@ public class DefaultRunTemplateFactoryTest {
         String text = "{{/}}";
         if (templatePattern.matcher(text).matches()) {
             tag = gramerPattern.matcher(text).replaceAll("").trim();
-            template = (RunTemplate) runTemplateFactory.createRunTemplate(config, tag, null);
+            template = runTemplateFactory.createRunTemplate(config, tag, null);
         }
         assertEquals(tag, "/");
         assertEquals(template.toString(), text);
@@ -39,7 +39,7 @@ public class DefaultRunTemplateFactoryTest {
         text = "{{}}";
         if (templatePattern.matcher(text).matches()) {
             tag = gramerPattern.matcher(text).replaceAll("").trim();
-            template = (RunTemplate) runTemplateFactory.createRunTemplate(config, tag, null);
+            template = runTemplateFactory.createRunTemplate(config, tag, null);
         }
         assertEquals(tag, "");
         assertEquals(template.toString(), text);
@@ -48,7 +48,7 @@ public class DefaultRunTemplateFactoryTest {
         text = "{{name}}";
         if (templatePattern.matcher(text).matches()) {
             tag = gramerPattern.matcher(text).replaceAll("").trim();
-            template = (RunTemplate) runTemplateFactory.createRunTemplate(config, tag, null);
+            template = runTemplateFactory.createRunTemplate(config, tag, null);
         }
         assertEquals(tag, "name");
         assertEquals(template.toString(), text);
@@ -57,7 +57,7 @@ public class DefaultRunTemplateFactoryTest {
         text = "{{?name}}";
         if (templatePattern.matcher(text).matches()) {
             tag = gramerPattern.matcher(text).replaceAll("").trim();
-            template = (RunTemplate) runTemplateFactory.createRunTemplate(config, tag, null);
+            template = runTemplateFactory.createRunTemplate(config, tag, null);
         }
         assertEquals(tag, "?name");
         assertEquals(template.toString(), text);

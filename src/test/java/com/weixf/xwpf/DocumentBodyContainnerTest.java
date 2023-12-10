@@ -76,8 +76,6 @@ public class DocumentBodyContainnerTest {
 
     }
 
-    ;
-
     @Test
     void testInsertNewParagraph() {
         XWPFRun createRun = paragraph.createRun();

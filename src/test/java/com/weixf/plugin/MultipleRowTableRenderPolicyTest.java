@@ -7,7 +7,11 @@ import com.deepoove.poi.plugin.table.MultipleRowTableRenderPolicy;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class MultipleRowTableRenderPolicyTest {
 

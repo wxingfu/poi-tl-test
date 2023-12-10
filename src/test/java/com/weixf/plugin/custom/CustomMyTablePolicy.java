@@ -1,6 +1,5 @@
 package com.weixf.plugin.custom;
 
-import com.deepoove.poi.data.style.TableStyle;
 import com.deepoove.poi.policy.AbstractRenderPolicy;
 import com.deepoove.poi.render.RenderContext;
 import com.deepoove.poi.util.TableTools;
