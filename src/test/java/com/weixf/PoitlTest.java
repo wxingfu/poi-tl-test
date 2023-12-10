@@ -328,17 +328,17 @@ public class PoitlTest {
         // 文本标签 {{var}}
         HighlightRenderData simpleTextRenderCode = new HighlightRenderData();
         simpleTextRenderCode.setCode("put(\"name\", \"Sayi\");\n" +
-                "put(\"author\", new TextRenderData(\"000000\", \"Sayi\"));\n" +
-                "put(\"link\", new HyperlinkTextRenderData(\"website\", \"http://deepoove.com\"));\n" +
-                "put(\"anchor\", new HyperlinkTextRenderData(\"anchortxt\", \"anchor:appendix1\"));");
+                "put(\"author1\", new TextRenderData(\"28a745\", \"我是\\n绿色且换行的文字\"));\n" +
+                "put(\"link1\", new HyperlinkTextRenderData(\"poi-tl网站\", \"http://deepoove.com\"));\n" +
+                "put(\"anchor1\", new HyperlinkTextRenderData(\"anchortxt\", \"anchor:Sayi\"));");
         simpleTextRenderCode.setLanguage("java");
         simpleTextRenderCode.setStyle(HighlightStyle.builder().withShowLine(true).withTheme("zenburn").build());
         data.put("simpleTextRenderCode", simpleTextRenderCode);
 
         HighlightRenderData simpleChainTextRenderCode = new HighlightRenderData();
-        simpleChainTextRenderCode.setCode("put(\"author\", Texts.of(\"Sayi\").color(\"000000\").create());\n" +
-                "put(\"link\", Texts.of(\"website\").link(\"http://deepoove.com\").create());\n" +
-                "put(\"anchor\", Texts.of(\"anchortxt\").anchor(\"appendix1\").create());");
+        simpleChainTextRenderCode.setCode("put(\"author2\", Texts.of(\"我是绿色且换行的\\n文字\").color(\"28a745\").create());\n" +
+                "put(\"link2\", Texts.of(\"poi-tl网站\").link(\"http://deepoove.com\").create());\n" +
+                "put(\"anchor2\", Texts.of(\"anchortxt\").anchor(\"Sayi\").create());");
         simpleChainTextRenderCode.setLanguage("java");
         simpleChainTextRenderCode.setStyle(HighlightStyle.builder().withShowLine(true).withTheme("zenburn").build());
         data.put("simpleChainTextRenderCode", simpleChainTextRenderCode);
@@ -362,7 +362,7 @@ public class PoitlTest {
         simplePicturesRenderCode.setCode("// 指定图片路径\n" +
                 "put(\"localPicture\", Pictures.ofLocal(\"sayi.png\").size(120, 120).create());\n" +
                 "// 设置图片宽高\n" +
-                "put(\"imageByWidthAndHeight\", Pictures.ofLocal(\"logo.png\").size(120, 120).create());\n" +
+                "put(\"imageByWidthAndHeight\", Pictures.ofLocal(\"logo.png\").size(220, 220).create());\n" +
                 "// 图片流\n" +
                 "put(\"localBytePicture\", Pictures.ofStream(Files.newInputStream(Paths.get(\"logo.png\"))).size(100, 120).create());\n" +
                 "// 网络图片\n" +
@@ -444,11 +444,11 @@ public class PoitlTest {
         // 列表标签 {{*var}}
         HighlightRenderData simpleListRenderCode = new HighlightRenderData();
         simpleListRenderCode.setCode("put(\"list\", Numberings.of(NumberingFormat.DECIMAL)\n" +
-                " .addItem(\"Plug-in grammar\")\n" +
-                " .addItem(\"Supports word text, pictures, table...\")\n" +
-                " .addItem(\"Not just templates\")\n" +
-                " .addItem(\"啊啊啊啊啊啊啊啊啊啊啊啊阿啊啊啊\")\n" +
-                " .create());");
+                "        .addItem(\"Plug-in grammar\")\n" +
+                "        .addItem(Texts.of(\"Supports word text, pictures, table...\").color(\"FF0000\").create())\n" +
+                "        .addItem(\"Not just templates\")\n" +
+                "        .addItem(\"啊啊啊啊啊啊啊啊啊啊啊啊阿啊啊啊\")\n" +
+                "        .create());");
         simpleListRenderCode.setLanguage("java");
         simpleListRenderCode.setStyle(HighlightStyle.builder().withShowLine(true).withTheme("zenburn").build());
         data.put("simpleListRenderCode", simpleListRenderCode);
